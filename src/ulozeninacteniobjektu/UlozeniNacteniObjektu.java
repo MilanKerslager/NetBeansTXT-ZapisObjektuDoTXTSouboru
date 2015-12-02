@@ -12,15 +12,15 @@ import java.util.logging.Logger;
 public class UlozeniNacteniObjektu {
 
     public static void main(String[] args) {
-        TelefonniSeznam polozka1;
-        polozka1 = new TelefonniSeznam();
+        PolozkaTelSeznamu polozka1;
+        polozka1 = new PolozkaTelSeznamu();
         polozka1.jmeno = "René";
         polozka1.prijmeni = "Hužva";
         polozka1.cislo = 608123456;
         
         // Zde se použije metoda toString()
         // Metodu toString() má každý objekt implicitní, ale nám
-        // nevyhovuje, tak je v třídě TelefonniSeznam napsána znova.
+        // nevyhovuje, tak je v třídě PolozkaTelSeznamu napsána znova.
         System.out.println(polozka1);
         
         // zápis do souboru bude využívat metodu toString(), která

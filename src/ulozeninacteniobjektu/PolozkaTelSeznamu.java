@@ -2,7 +2,7 @@ package ulozeninacteniobjektu;
 
 // třída pro definici položky v telefonním seznamu
 
-public class TelefonniSeznam {
+public class PolozkaTelSeznamu {
     String jmeno;
     String prijmeni;
     long cislo;
